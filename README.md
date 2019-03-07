@@ -26,6 +26,6 @@ However, this was an idea I had come up with to practice my Python skills and to
 #### You'll Never Walk Alone!
 
 #### Pictures:
-![alt text](https://imgur.com/a/ZQ7nQ2t.png)
-![alt text](https://imgur.com/a/y7MQrRT.png)
-![alt text](https://imgur.com/a/guojzXZ)
+![alt text](https://imgur.com/rgxoL89.png)
+![alt text](https://imgur.com/QFvHVVR.png)
+![alt text](https://imgur.com/S94InHh.png)
