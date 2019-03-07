@@ -2,7 +2,7 @@
 
 ### https://twitter.com/liverpool_never
 
-A bot that tweets out Liverpool related content using the Twitter (tweepy) and Reddit (praw) APIs. Because you can never get enough Liverpool.
+A cheeky bot that tweets out Liverpool related content using the Twitter (tweepy) and Reddit (praw) APIs. Because you can never get enough Liverpool.
 
 ## As of right now, the bot has the capacity to:
 1. Reply to any tweets where it is mentioned and contains the string '#YNWA'. 
@@ -28,4 +28,3 @@ However, this was an idea I had come up with to practice my Python skills and to
 #### Pictures:
 ![alt text](https://imgur.com/rgxoL89.png)
 ![alt text](https://imgur.com/QFvHVVR.png)
-![alt text](https://imgur.com/S94InHh.png)
