@@ -1,5 +1,5 @@
 import praw
-from reddit_info import *
+#from reddit_info import * || Commented out for Heroku
 
 SUBREDDIT_TO_BROWSE = 'LiverpoolFC'
 LIMIT = 10
