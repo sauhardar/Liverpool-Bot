@@ -1,6 +1,6 @@
 import tweepy, praw
 import time
-from keys import * #File that stores API keys
+#from keys import * #File that stores API keys || Commented out for Heroku
 from reddit_material import *
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
