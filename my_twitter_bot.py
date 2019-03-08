@@ -64,12 +64,17 @@ def post_title_and_comments(sub, numComments, contentFilter, timeFilter):
 
 # Main function that calls the others
 
+loop_count = 0
 while True:
     print('-----------------------------------\n')
-    print('Booting main while loop...')
+    loop_count += 1
+    print('Booting main while loop... Take {}'.format(loop_count))
     reply_to_tweets()
     
     post_title_and_comments('LiverpoolFC', 3, 'top', 'month')
-    post_title_and_comments('soccer', 3, 'top', 'year')
+    time.sleep(10) # 10 second break between posts
+    post_title_and_comments('LiverpoolFC', 3, 'controversial', 'day')
+    time.sleep(10) # 10 second break between posts
+    post_title_and_comments('LiverpoolFC', 3, 'hot', 'day')
     
-    time.sleep(10)
+    time.sleep(3600) #600 = 10 minutes
