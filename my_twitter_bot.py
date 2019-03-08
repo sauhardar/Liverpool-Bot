@@ -77,4 +77,5 @@ while True:
     time.sleep(10) # 10 second break between posts
     post_title_and_comments('LiverpoolFC', 3, 'hot', 'day')
     
+    print('Waiting for next loop...')
     time.sleep(3600) #600 = 10 minutes
